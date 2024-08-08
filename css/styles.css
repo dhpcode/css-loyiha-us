@@ -1,3 +1,23 @@
+/* Core styles */
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+
+.clearfix {
+  clear: both;
+}
+/* Main header */
+
 .main-header {}
 
 .main-header__brand {
@@ -32,4 +52,84 @@
 
 .main-navigation__item a:hover {
   color: #efb6df;
+}
+
+
+/* Main section */
+
+.main-section {
+  padding: 100px 30px;
+}
+
+.main-section > div {
+  width: 50%;
+  float: left;
+}
+
+.main-section__info {}
+
+.main-section__welcome {
+  line-height: 19px;
+  color: rgb(121, 121, 121);
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main-section__introduction {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 60px;
+  color: rgb(5, 54, 77);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main-section__position {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 0px;
+  color: #05364d;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main-section__action {
+  margin-top: 30px;
+  border: none;
+  background-color: #1c44e4;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 20px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-section__image {
+  text-align: right;
+}
+
+/* Statistics */
+
+.statistics {
+  padding-top: 100px;
+}
+.statistics__item {
+  width: 150px;
+  display: inline-block;
+  background-color: #f8faff;
+  text-align: center;
+  padding: 5px 10px;
+  margin-right: 20px;
+}
+.statistics__number {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #1c44e4;
+}
+.statistics__title {
+  font-size: 16px;
+  color: #797979;
+  font-weight: 300;
 }
