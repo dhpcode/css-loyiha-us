@@ -25,7 +25,14 @@ body {
 
 /* Main header */
 
-.main-header {}
+.main-header {
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 3px 16px 0px rgba(0, 0, 0, 10%);
+}
 
 .main-header__brand {
   display: inline-block;
