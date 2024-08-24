@@ -159,6 +159,9 @@ body {
   font-size: 22px;
   margin-bottom: 5px;
   color: #1c44e4;
+  background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .statistics__title {
