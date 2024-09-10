@@ -1,0 +1,133 @@
+/* Core styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.to-uppercase {
+    text-transform: uppercase;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+
+/* Buttons */
+
+
+.button {
+    border: none;
+    background-color: #1c44e4;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    background-size: 200% auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-position: right center;
+}
+
+.about-me__action {
+    margin-top: 40px;
+}
+
+
+/* Titles */
+
+
+.section-subtitle {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #797979;
+}
+
+.blur-line {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+.section-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: #05364d;
+}
+
+/* Main header */
+
+.main-header {
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 3px 16px 0px rgba(0, 0, 0, 10%);
+    z-index: 999;
+}
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand img {
+    width: 118px;
+    height: 24px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-navigation__item a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #05364d;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.main-navigation__item a:hover {
+    color: #efb6df;
+}
