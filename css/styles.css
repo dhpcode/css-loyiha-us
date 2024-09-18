@@ -5,14 +5,14 @@
   background: url('../images/main-banner.png') top center;
   background-size: cover;
   background-position: center;
-  min-height: 825px;
+  min-height: 51.56rem; /*825px*/
 }
 
 
 /* Main section */
 
 .main-section {
-  padding: 100px 30px;
+  padding: 6.25rem 1.875rem; 
 }
 
 .main-section>div {
@@ -23,36 +23,36 @@
 .main-section__info {}
 
 .main-section__welcome {
-  line-height: 19px;
+  line-height: 1.19rem;
   color: rgb(121, 121, 121);
   letter-spacing: 2px;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .main-section__introduction {
-  font-size: 60px;
+  font-size:3.75rem;
   font-weight: 500;
-  line-height: 60px;
+  line-height: 3.75rem;
   color: rgb(5, 54, 77);
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .main-section__position {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 0px;
   color: #05364d;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .main-section__social-networks a {
   color: #8fa1aa;
-  font-size: 20px;
+  font-size: 1.25rem;
   display: inline-block;
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .main-section__social-networks a:hover i {
@@ -60,7 +60,7 @@
 }
 
 .main-section__action {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .main-section__image {
@@ -70,7 +70,7 @@
 /* Statistics */
 
 .statistics {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .statistics__item {
@@ -78,13 +78,13 @@
   display: inline-block;
   background-color: #f8faff;
   text-align: center;
-  padding: 5px 10px;
-  margin-right: 20px;
+  padding: 0.3125rem 0.625rem;
+  margin-right: 1.25rem;
 }
 
 .statistics__number {
-  font-size: 22px;
-  margin-bottom: 5px;
+  font-size: 1.375rem;
+  margin-bottom: 0.3125rem;
   color: #1c44e4;
   background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
   -webkit-background-clip: text;
@@ -92,14 +92,14 @@
 }
 
 .statistics__title {
-  font-size: 16px;
+  font-size: 1rem;
   color: #797979;
   font-weight: 300;
 }
 
 /* About me section */
 .about-me {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 .about-me>div {
@@ -113,22 +113,22 @@
 
 
 .about-me__description {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   color: #797979;
-  line-height: 27px;
+  line-height: 1.69rem;
 }
 
 /* Services */
 
 .services {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .service-card {
   display: inline-block;
   width: 30%;
-  padding: 60px 30px;
+  padding: 3.75rem 1.875rem;
   background-color: #f8faff;
   margin-right: 3%;
   text-align: center;
@@ -146,27 +146,27 @@
 
 
 .service-card__icon {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
 }
 
 .service-card__title {
   color: #05364d;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   text-transform: capitalize;
 }
 
 .service-card__description {
-  font-size: 14px;
-  line-height: 27px;
+  font-size: 0.875rem;
+  line-height: 1.69rem;
   font-weight: 300;
   color: #797979;
 }
 
 .service-card__link {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #05364d;
@@ -177,7 +177,7 @@
 /* Clients section */
 
 .clients {
-  padding-top: 100px;
+  padding-top: 6.25rem;
 }
 
 .client__items {}
@@ -192,36 +192,36 @@
 }
 
 .client-item__info {
-  padding-top: 50px;
-  padding-left: 50px;
+  padding-top: 3.125rem;
+  padding-left: 3.125rem;
 }
 
 .client-item__name {
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-top: 0;
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 }
 
 .client-item__position {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 300;
   color: #5b6d75;
-  line-height: 27px;
-  margin-bottom: 16px;
+  line-height: 1.69rem;
+  margin-bottom: 1rem;
 }
 
 .client-item__review {
   font-weight: 300;
-  font-size: 14px;
-  line-height: 27px;
+  font-size: 0.875rem;
+  line-height: 1.69rem;
   color: #5b6d75;
   margin-top: 0;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .client-item__rate {
   color: #ffd804;
-  font-size: 15px;
+  font-size: 0.94rem;
 }
 
 .client-item__rate .star-disbled {
@@ -233,23 +233,23 @@
 /* Portfolio section styles */
 
 .portfolio {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 
 
 .portfolio__filters {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   padding: 0;
   list-style: none;
   display: inline-block;
-  margin-bottom: 25px;
+  margin-bottom: 1.56rem;
 }
 
 .portfolio__filters li {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 2.5rem;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 0.81rem;
   cursor: pointer;
 }
 
@@ -270,7 +270,7 @@
   display: inline-block;
   cursor: pointer;
   width: 50%;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .portfolio-item1 {
@@ -307,8 +307,8 @@
 .portfolio-item__info {
   position: absolute;
   z-index: 1;
-  bottom: 44px;
-  left: 80px;
+  bottom: 2.75rem;
+  left: 5rem;
   color: #ffffff;
   visibility: hidden;
 }
@@ -369,17 +369,17 @@
 
 .blog-item__info {
   background: #f8faff;
-  padding: 30px;
+  padding: 1.875rem;
   color: #797979;
 }
 
 .blog-item__main-info i {
-  margin-right: 5px;
+  margin-right: 0.3125rem;
 }
 
 .blog-item__main-info span {
-  font-size: 14px;
-  margin-right: 50px;
+  font-size: 0.875rem;
+  margin-right: 3.125rem;
   cursor: pointer;
   font-weight: 100;
 }
@@ -390,19 +390,19 @@
 
 .blog-item__title {
   color: #05364d;
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.94rem;
 }
 
 .blog-item__text {
-  font-size: 15px;
-  line-height: 27px;
+  font-size: 0.94rem;
+  line-height: 1.69rem;
   font-weight: 300;
 }
 
 .blog-item__link {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;

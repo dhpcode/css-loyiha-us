@@ -34,10 +34,10 @@ body {
     background-color: #1c44e4;
     color: #fff;
     font-weight: 500;
-    font-size: 14px;
-    padding: 20px 40px;
+    font-size: 0.875rem; /*14:16= 0.875rem */
+    padding: 1.25rem 2.5rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius:0.31rem;
     background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
     background-size: 200% auto;
     transition: all 0.3s ease-in-out;
@@ -48,7 +48,7 @@ body {
 }
 
 .about-me__action {
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 
@@ -61,7 +61,7 @@ body {
     font-weight: 500;
     position: relative;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.63rem;
     color: #797979;
 }
 
@@ -69,19 +69,19 @@ body {
     position: relative;
     top: -2px;
     display: inline-block;
-    margin-left: 5px;
-    width: 80px;
-    height: 4px;
+    margin-left: 0.31rem;
+    width: 5rem;
+    height: 0.25rem;
     background: rgba(237, 35, 159, 0.6);
     filter: blur(4px);
     border-radius: 4px;
 }
 
 .section-title {
-    font-size: 42px;
+    font-size: 2.625rem;
     font-weight: 700;
     margin-top: 0;
-    line-height: 52px;
+    line-height: 3.25rem;
     text-transform: capitalize;
     color: #05364d;
 }
@@ -104,8 +104,8 @@ body {
 }
 
 .main-header__brand img {
-    width: 118px;
-    height: 24px;
+    width: 7.375rem;
+    height: 1.5rem;
 }
 
 .main-navigation {
@@ -117,14 +117,14 @@ body {
 
 .main-navigation__item {
     display: inline-block;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .main-navigation__item a {
     text-decoration: none;
     text-transform: uppercase;
     color: #05364d;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
 }
 
